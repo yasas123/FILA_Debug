@@ -56,10 +56,7 @@ public class Game
 		{
 			player.receiveWinnings(winnings);
 		}
-		else
-		{
-			player.takeBet(bet);
-		}
+		
 		return winnings;
 	}
 }
